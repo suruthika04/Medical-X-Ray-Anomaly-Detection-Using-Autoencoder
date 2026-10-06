@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Do not commit medical image datasets
+data/chest_xray/**/*.jpg
+data/chest_xray/**/*.jpeg
+data/chest_xray/**/*.png
+
+# Generated model/evaluation artifacts
+artifacts/*.keras
+artifacts/*.h5
+artifacts/*.hdf5
+artifacts/*.npy
+artifacts/*.png
+artifacts/*.csv
+
+logs/
+*.log
